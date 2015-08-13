@@ -32,7 +32,6 @@ Master_array = [
   ["The closest US state to Africa is Maine",true],
   ["Gum takes 7 years to pass through your body",false],
   ["Humans only use 10% of their brain",false],
-<<<<<<< HEAD
   ["Pineapples grow from plants out of the ground",true]
 
   
@@ -48,45 +47,12 @@ $(document).ready(function(){
   $('.starttext').text((rand[0]));
   console.log(rand[1]);
    if (rand[1]===true){
-     console.log(true);
-     $("#truebutton a").attr("href","correctpage.html")
+     $("#truebutton a").attr("href","correct.html")
      $("#falsebutton a").attr("href","final_project/bad_page.html")
    }
    else{
-     console.log(false);
      $("#truebutton a").attr("href","final_project/bad_page.html")
-     $("#falsebutton a").attr("href","correctpage.html")
+     $("#falsebutton a").attr("href","correct.html")
   }
     
 });
-=======
-  ["Pineapples grow from plants out of the ground",true],
-  ["Moose can dive underwater",true],
-  ["The great wall of china is the only manmade object you can see from the moon",false],
-  ["Lying makes your nose run",false],
-  ["Microwaves are illegal in Japan",false],
-  ["Penguins have knees",true],
-  ["Microwaves are illegal in Japan",false],
-  ["The Wright Brothers were afraid of heights",false],
-  ["Monkeys bathe in their own urine",false],
-  ["15 people are killed daily by donkeys",false],
-  ["Bubble gum contains rubber",false],
-  ["Ancient Egyptians slept on pillows made of stone",true],
-  ["80% of twins are separated at birth",false],
-  ["Camels have three eyelids to protect themselves from blowing sand",true],
-  ["In Los Angeles, there are fewer people than there are automobiles",true],
-  ["A cat has 32 muscles in each ear",true],
-  ["Getting up too quickly can make you dizzy",true]
-  
-]
-// console.log(Master_array);
-var rand = Master_array[Math.floor(Math.random() * Master_array.length)];
-console.log(rand);
-
- $(document).ready(function() {
-    var quotes = Master_array,
-    randno = quotes[Math.floor( Math.random() * quotes.length )];
-   
-    $('.quote').text( (rand[0]) );
-}); 
->>>>>>> 7d73778304ac0c7e47874e79030c1b2333e47bc8
