@@ -1,0 +1,46 @@
+body {
+
+  font-size: 10pt;
+  
+  text-align: center;
+  
+  position: relative;
+  
+  top: 200px;
+
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+  color: black;
+
+  line-height: 14pt;
+
+  padding-left: 5pt;
+
+  padding-right: 5pt;
+
+  padding-top: 5pt;
+  
+  
+
+}
+
+#truebutton {
+  text-align: left;
+  left: 200px;
+    
+}
+
+#falsebutton {
+  text-align: right;
+  right: 200px;
+}
+
+h1 {
+
+  font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+  font-weight: bold;
+
+  line-height: 20pt;
+  text-align: center;
+}
