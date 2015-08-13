@@ -54,3 +54,10 @@ Master_array = [
 // console.log(Master_array);
 var rand = Master_array[Math.floor(Math.random() * Master_array.length)];
 console.log(rand);
+
+ $(document).ready(function() {
+    var quotes = Master_array,
+    randno = quotes[Math.floor( Math.random() * quotes.length )];
+   
+    $('.quote').text( (rand[0]) );
+}); 
