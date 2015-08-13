@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,800);
+
+h1{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 100px;
+  color: white; 
+  background-color: black; 
+  
+}
+
+body{
+  background-image: url("img/fail-stamp.jpg");;
+  
+}
+
+button{
+  ;
+}
+
+img{
+  width : 30%;
+  height : 50%;
+  border-style : solid;
+  border-width : 8px;
+  border-color : black;
+  margin : 30px;
+}
+#top, #bottom, #left, #right {
+	background: black;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
