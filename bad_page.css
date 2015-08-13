@@ -9,12 +9,16 @@ h1{
 }
 
 body{
-  background-image: url("img/fail-stamp.jpg");;
+  background-image: url("img/fail-stamp.jpg");
   
 }
 
-button{
-  ;
+.btn{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 30px;
+  color: white; 
+  background-color: black; 
+  
 }
 
 img{
