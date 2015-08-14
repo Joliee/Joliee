@@ -32,32 +32,27 @@ Master_array = [
   ["The closest US state to Africa is Maine",true],
   ["Gum takes 7 years to pass through your body",false],
   ["Humans only use 10% of their brain",false],
-  ["Pineapples grow from plants out of the ground",true],
-  ["Moose can dive underwater",true],
-  ["The great wall of china is the only manmade object you can see from the moon",false],
-  ["Lying makes your nose run",false],
-  ["Microwaves are illegal in Japan",false],
-  ["Penguins have knees",true],
-  ["Microwaves are illegal in Japan",false],
-  ["The Wright Brothers were afraid of heights",false],
-  ["Monkeys bathe in their own urine",false],
-  ["15 people are killed daily by donkeys",false],
-  ["Bubble gum contains rubber",false],
-  ["Ancient Egyptians slept on pillows made of stone",true],
-  ["80% of twins are separated at birth",false],
-  ["Camels have three eyelids to protect themselves from blowing sand",true],
-  ["In Los Angeles, there are fewer people than there are automobiles",true],
-  ["A cat has 32 muscles in each ear",true],
-  ["Getting up too quickly can make you dizzy",true]
+  ["Pineapples grow from plants out of the ground",true]
+
   
 ]
-// console.log(Master_array);
+//console.log(thing);
 var rand = Master_array[Math.floor(Math.random() * Master_array.length)];
 console.log(rand);
 
- $(document).ready(function() {
-    var quotes = Master_array,
-    randno = quotes[Math.floor( Math.random() * quotes.length )];
-   
-    $('.quote').text( (rand[0]) );
-}); 
+$(document).ready(function(){
+   var quotes = Master_array,
+       randno = quotes[Math.floor( Math.random() * quotes.length )];
+ 
+  $('.starttext').text((rand[0]));
+  console.log(rand[1]);
+   if (rand[1]===true){
+     $("#truebutton a").attr("href","correct.html")
+     $("#falsebutton a").attr("href","bad_page.html")
+   }
+   else{
+     $("#truebutton a").attr("href","bad_page.html")
+     $("#falsebutton a").attr("href","correct.html")
+  }
+    
+});
