@@ -48,10 +48,10 @@ $(document).ready(function(){
   console.log(rand[1]);
    if (rand[1]===true){
      $("#truebutton a").attr("href","correct.html")
-     $("#falsebutton a").attr("href","final_project/bad_page.html")
+     $("#falsebutton a").attr("href","bad_page.html")
    }
    else{
-     $("#truebutton a").attr("href","final_project/bad_page.html")
+     $("#truebutton a").attr("href","bad_page.html")
      $("#falsebutton a").attr("href","correct.html")
   }
     
