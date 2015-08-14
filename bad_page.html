@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
  <head>
-    <!-- Latest compiled and minified CSS -->
+ 
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ 
+   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 <!-- Optional theme -->
@@ -26,21 +30,35 @@
  
 
   <center>
-    <br><br><br><br>
   <h1>PSYCH!</h1>
 
-
-   </center>
-   <center>
      <button> <a href="http://joliee-pc-15-precollege-wd1-nyfl-080315-1-118590.nitrousapp.com:3000/questionpage.html" class="btn btn-default btn-lg active" role="button">Next Question</a> </button>
    </center>
-     <center>
-   <img src="no.gif" alt="Incorrect" 
+
+   
+            
+<svg class="super-saiyan" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="outsideblur">
+      <!-- crashes firefox and chrome Older
+      <feColorMatrix type="matrix" values=
+                        "0 0 0 0   0
+                         0 0 0 0   0
+                         0 0 1 0   0
+                         0 0 0 1 0" result="bluelight"/>-->
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+      <feComponentTransfer>
+        <feFuncA in="blur" type="linear" slope="5" result="noalfa"/>
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" in2="blur" />
+    </filter>
+  </defs>
+  <polyline class="lightning" points="0,0 10,10 11,9 15,20 14,21 16,22 18,21 20,25 19,30 22,37 19,37 26,40"></polyline>
+</svg>
+  
+    <img src="Screen Shot 2015-08-14 at 1.18.27 PM.png" alt="dead" 
         height="300" width="300">
-   </center>
-   <div id="left"></div>
-<div id="right"></div>
-<div id="top"></div>
-<div id="bottom"></div>
+ 
+  
  </body>
 </html>

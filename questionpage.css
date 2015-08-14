@@ -1,5 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,800);
+
+
+
 body {
 
+  background-image: url("nicesky.jpg");
+  
   font-size: 25pt;
   
   text-align: center;
@@ -35,9 +41,9 @@ body {
   right: 200px;
 }
 
-h1 {
+p {
 
-  font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font: 14pt 'Merriweather Sans', sans-serif;
 
   font-weight: bold;
 
@@ -47,4 +53,5 @@ h1 {
 
 .btn{
   text-size: 100pt;
+  
 }

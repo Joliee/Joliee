@@ -35,7 +35,12 @@ Master_array = [
   ["Pineapples grow from plants out of the ground",true]
 
   
+ 
 ]
+
+
+
+
 //console.log(thing);
 var rand = Master_array[Math.floor(Math.random() * Master_array.length)];
 console.log(rand);
